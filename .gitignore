@@ -1,2 +1,5 @@
 # IDE ignore
 .idea/*
+
+# Python ignore
+dvmnVPenv/*
