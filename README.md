@@ -14,6 +14,10 @@
 
 * [127.0.0.1:35729](http://127.0.0.1:35729/) 
 
+## Превью
+
+Превью сайта можно посмотреть по [ссылке](https://neverdieone.github.io/dvmnVideoPlayer/src/index.html)
+
 ## TODO
 
 - [X] Кнопка Play
