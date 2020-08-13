@@ -2,7 +2,6 @@ button {
     border: none;
     background-color: black;
     font-size: 1.2em;
-    margin-right: 5px;
     padding: 10px;
 }
 
@@ -12,9 +11,14 @@ i {
 
 .button-wrapper {
     background-color: black;
+    display: flex;
 }
 
 .container {
+    flex-grow: 1;
+}
+
+#space {
     flex-grow: 1;
 }
 
