@@ -3,3 +3,6 @@
 
 # Python ignore
 dvmnVPenv/*
+
+.DS_Store
+.vscode

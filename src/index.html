@@ -3,47 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Video Player</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="player">
+  <div id="player" class="player">
     <div class="js-video-container container"></div>
 
-    <div class="button-wrapper">
-      <button class="js-play-button" id="play">
-        <i class="fa fa-play" aria-hidden="true"></i>
+    <div class="button-group-line">
+      <button class="js-play-button button" id="play" style="width: 1.9em;">
+        <i class="fa fa-play icon" aria-hidden="true"></i>
       </button>
 
-      <button class="js-pause-button" id="pause">
-        <i class="fa fa-pause" aria-hidden="true"></i>
+      <button class="js-pause-button button" id="pause">
+        <i class="fa fa-pause icon" aria-hidden="true"></i>
       </button>
 
-      <button class="js-mute-button">
-        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      <button class="js-mute-button button">
+        <i class="fa fa-volume-up icon" aria-hidden="true"></i>
       </button>
 
-      <button class="js-volume-button">
-        <i class="fa fa-volume-off" aria-hidden="true"></i>
+      <button class="js-volume-button button">
+        <i class="fa fa-volume-off icon" aria-hidden="true"></i>
       </button>
 
-      <div id="space"></div>
+      <div id="space" class="space"></div>
 
-      <button class="js-fullscreen-button">
-        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+      <button class="js-fullscreen-button button">
+        <i class="fa fa-arrows-alt icon" aria-hidden="true"></i>
       </button>
     </div>
 
   </div>
 
 
-
-
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="player.js"></script>
 
-  <script type="text/javascript">
+  <script>
     createPlayer({elementId: 'player'});
   </script>
 
