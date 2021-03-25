@@ -1,11 +1,11 @@
-.button {
+.player-button {
     border: none;
     background-color: black;
     font-size: 1.2em;
     padding: 10px;
 }
 
-.icon {
+.player-icon {
     color: white;
     cursor: pointer;
 }
@@ -15,11 +15,11 @@
     display: flex;
 }
 
-.container {
+.player-container {
     flex-grow: 1;
 }
 
-.space {
+.player-space {
     flex-grow: 1;
 }
 
