@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+.player-button:focus {
+    outline: 0;
+}
+
 .player-icon {
     color: white;
     cursor: pointer;
