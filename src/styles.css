@@ -44,7 +44,6 @@
 
 .player-time-progress {
     background-color: red;
-
 }
 
 .player-time-size {
@@ -64,7 +63,8 @@
     flex-direction: column;
 }
 
-.circle {
+.circle  {
+    opacity: 0;
     height: 8px;
     width: 8px;
     background-color: #f8104d;
@@ -75,4 +75,14 @@
     display: inline-block;
     margin-left: -8px;
     margin-top: -4px;
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+}
+
+.player-time-line:hover .circle {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
 }
