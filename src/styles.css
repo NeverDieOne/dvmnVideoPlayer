@@ -8,7 +8,7 @@
 .player-icon {
     color: white;
     cursor: pointer;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .button-group-line {
@@ -21,8 +21,18 @@
 }
 
 .player-space {
+    display: flex;
     flex-grow: 1;
     color: white;
+    padding-top: 10px;
+}
+
+.player-time-digits {
+    flex-grow: 1;
+}
+
+.player-time-line {
+    flex-grow: 999;
 }
 
 .player-time {
