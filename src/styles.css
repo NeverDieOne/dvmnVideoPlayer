@@ -33,6 +33,8 @@
 
 .player-time-line {
     flex-grow: 999;
+    height: 19px;
+    background-color: grey;
 }
 
 .player-time {
