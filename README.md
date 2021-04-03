@@ -6,11 +6,15 @@
 
 * Установка зависимостей
 
-`pip install -r requirements.txt`
+```bash
+>>> pip install -r requirements.txt
+```
 
 * Запуск liverload
 
-`livereload src`
+```bash
+>>> livereload src
+```
 
 * [127.0.0.1:35729](http://127.0.0.1:35729/) 
 
@@ -25,9 +29,9 @@
 - [X] Кнопка Volume Off
 - [X] Кнопка Volume On
 - [X] Кнопка Fullscreen
-- [ ] Полоска просмотра
-- [ ] Анимации
-- [ ] Дизайн
+- [X] Полоска просмотра
+- [X] Анимации
+- [X] Дизайн
 
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [Devman](https://dvmn.org/modules)
