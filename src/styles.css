@@ -25,6 +25,10 @@
     color: white;
 }
 
+.player-time {
+    font-family: 'Roboto';
+}
+
 .player {
     width: 800px;
     height: 600px;
