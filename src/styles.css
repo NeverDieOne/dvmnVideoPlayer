@@ -33,8 +33,19 @@
 
 .player-time-line {
     flex-grow: 999;
-    height: 19px;
     background-color: grey;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 5px;
+    border-radius: 25px;
+}
+
+.player-time-progress {
+    background-color: red;
+    height: 5px;
+    border-radius: 25px;
 }
 
 .player-time {
