@@ -30,15 +30,10 @@
     align-items: center;
 }
 
-.player-time-digits {
-    flex-grow: 1;
-}
-
 .player-time-line {
-    flex-grow: 999;
+    flex-grow: 1;
     background-color: grey;
     cursor: pointer;
-    margin-top: 8px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
